@@ -36,5 +36,26 @@
         android:layout_below="@+id/text2"
         android:layout_marginTop="45dp"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/but2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP NORMALIZING"
+        android:textSize="15sp"
+        android:layout_below="@+id/but2"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/but3"/>
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:textSize="15sp"
+        android:layout_below="@+id/but3"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 </RelativeLayout>

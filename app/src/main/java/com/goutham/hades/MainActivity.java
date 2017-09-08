@@ -28,11 +28,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Button three = (Button) findViewById(R.id.button3);
             three.setOnClickListener(this);
             Button four = (Button) findViewById(R.id.button4);
-            one.setOnClickListener(this); // calling onClick() method
+            four.setOnClickListener(this); // calling onClick() method
             Button six = (Button) findViewById(R.id.button6);
-            two.setOnClickListener(this);
+            six.setOnClickListener(this);
             Button seven = (Button) findViewById(R.id.button7);
-            three.setOnClickListener(this);
+            seven.setOnClickListener(this);
 
         }
 
